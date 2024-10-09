@@ -1,0 +1,24 @@
+html, body{
+ height: 100%;
+ width: 100%;
+ background-color: black;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.search-autocomplete-container{
+width: 60vw;
+height: auto;
+padding: 10px;
+place-items: center;
+background-color: rgb(29, 28, 28);
+color: rgb(255, 245, 245);
+}
+
+.input{
+    margin: auto;
+    width: 90%;
+    height: 25px;
+}
