@@ -1,0 +1,31 @@
+/* NavStyle.css */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  .prod::-webkit-scrollbar {
+    width: 0;
+  }
+.navbar-link {
+    color: #000000; /* white */
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+  }
+  .left{
+    border-top: 2px solid black;
+    height: 15vh;
+    width: 100vw;
+    background-color: #f9f9f9;
+  }
+  
+  .navbar-link:hover {
+    color: #257e22; /* light gray */
+  }
+  
+  .navbar-link:focus {
+    color: #6aff56; /* dark gray */
+  }
+  
+  .navbar-link:active {
+    color: #333; /* dark gray */
+  }
